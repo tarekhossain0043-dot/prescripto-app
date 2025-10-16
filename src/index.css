@@ -10,6 +10,9 @@
   body {
     @apply overflow-x-hidden;
   }
+  ::-webkit-scrollbar {
+    @apply hidden;
+  }
 }
 
 @layer components {
