@@ -17,6 +17,9 @@ export default {
       colors: {
         primary: "#5f6fff",
       },
+      gridAutoColumns: {
+        auto: "repeat(auto-fil, minmax(200px, 1fr))",
+      },
     },
   },
   plugins: [],

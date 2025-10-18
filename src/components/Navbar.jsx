@@ -19,7 +19,7 @@ export default function Navbar() {
             <li className="py-1">HOME</li>
             <hr className="transition-all ease-in-out duration-300 border-none rounded-[30px] outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
           </NavLink>
-          <NavLink to="/all-doctors">
+          <NavLink to="/doctors">
             <li className="py-1">ALL DOCTORS</li>
             <hr className="transition-all ease-in-out duration-300 border-none rounded-[30px] outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
           </NavLink>

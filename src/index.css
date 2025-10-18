@@ -13,6 +13,9 @@
   ::-webkit-scrollbar {
     @apply hidden;
   }
+  .grid-cols-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 
 @layer components {

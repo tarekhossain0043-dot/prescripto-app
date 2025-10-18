@@ -3,7 +3,7 @@ import { specialityData } from "../assets/assets";
 function SpecialityMenu() {
   return (
     <div
-      id="#speciality"
+      id="speciality"
       className="mt-[120px] flex flex-col items-center justify-center text-gray-800"
     >
       <div className="text-center mb-[64px]">
@@ -19,6 +19,7 @@ function SpecialityMenu() {
       <div className="grid items-center gap-[40px] overflow-scroll sm:grid-cols-1 md:grid-cols-3  lg:grid-cols-6">
         {specialityData.map((special, index) => (
           <Link
+            onClick={() => scrollTo(0, 0)}
             className="flex flex-col items-center justify-center flex-shrink-0 transition-all duration-300 ease-in-out transform hover:translate-y-[12px]"
             key={index}
             to={`/doctors/${special.speciality}`}

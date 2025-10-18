@@ -1,5 +1,4 @@
 import { assets } from "../assets/assets";
-
 function Hero() {
   return (
     <div className="bg-primary rounded-md flex flex-col flex-wrap gap-5 lg:flex-row px-5 md:px-[40px] lg:px-[30px] mt-[26px] items-center relative z-10">
